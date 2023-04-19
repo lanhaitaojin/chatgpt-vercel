@@ -59,7 +59,7 @@ export default defineConfig({
       manifest: {
         name: "ChatGPT 中文网",
         lang: "zh-cn",
-        short_name: "ChatGPT",
+        short_name: "ChatGPT 中文网",
         background_color: "#f6f8fa",
         icons: [
           {
