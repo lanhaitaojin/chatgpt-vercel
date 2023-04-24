@@ -180,10 +180,15 @@ export default function ({
           fallback={
             <div
               class="animate-gradient-border cursor-pointer dark:bg-#292B31/90 bg-#E7EBF0/80 h-3em flex items-center justify-center"
-              onClick={stopStreamFetch}
+              // onClick={stopStreamFetch}
             >
-              <span class="dark:text-slate text-slate-7">
-                AI 正在思考 / 不需要了
+              <span>AI 正在思考...</span>
+              <div
+                  class="ml-1em px-2 py-0.5 border border-slate text-slate rounded-md text-sm op-70 cursor-pointer hover:bg-slate/10"
+                  onClick={stopStreamFetch}
+              >
+                不需要了
+              </div>
                 {/*AI 正在思考 / {store.currentMessageToken} / $*/}
                 {/*{store.currentMessageToken$.toFixed(4)}*/}
               </span>
