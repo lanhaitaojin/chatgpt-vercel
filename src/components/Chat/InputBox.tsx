@@ -191,7 +191,7 @@ export default function ({
               </div>
                 {/*AI 正在思考 / {store.currentMessageToken} / $*/}
                 {/*{store.currentMessageToken$.toFixed(4)}*/}
-              </span>
+              {/*</span>*/}
             </div>
           }
         >
